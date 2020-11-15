@@ -1,0 +1,13 @@
+name: PluginGetter
+version: ${project.version}
+main: com.bun133.plugingetter.Plugingetter
+api-version: 1.15
+authors: [ Bun133 ]
+description: PlaginGetter from Github with REST API
+website: https://twitter.com/bun133_
+commands:
+  github:
+    description: Get Plugin from Github and Reload.
+    usage: /<command> <GithubRepostioryLink> (<version>)
+    permission: op
+    permission-message: You don't have enough perm!
